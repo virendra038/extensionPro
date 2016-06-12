@@ -1,0 +1,17 @@
+{
+	"manifest_version":2,
+	"name":"protein Tracker",
+	"description":"Tracks a user's protein total",
+	"version":"1.0",
+	"browser_action":{
+		"default_icon":"baba.png",
+		"default_popup":"popup.html"
+
+	},
+
+	"options_page":"options.html",
+
+	"permissions" : [
+		"storage"
+	]
+}
